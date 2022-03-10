@@ -2,7 +2,9 @@
 
 vari programmi autoesplicativi sull'utillizzo del linguaggio C
 
-# condizioni
+## CONDIZIONI
+
+roadmap + esempi per scrivere una condizione ...
 
 ### operatori
 
@@ -45,24 +47,24 @@ vari programmi autoesplicativi sull'utillizzo del linguaggio C
     
 ## TABELLE DI CONDIZIONE
     
-### OR: (||)
+### OR: ||
     vero  || vero  --> vero
     vero  || falso --> vero
     falso || vero  --> vero
     falso || falso --> falso 
     
-### AND: (&&)
+### AND: &&
     vero  && vero  --> vero
     vero  && falso --> falso
     falso && vero  --> falso
     falso && falso --> falso 
     
-### XOR: (^)
+### XOR: ^
     vero  ^ vero  --> falso
     vero  ^ falso --> vero
     falso ^ vero  --> vero
     falso ^ falso --> falso 
     
-### NOT: (!)
+### NOT: !
     !vero --> falso 
     !falso --> vero
