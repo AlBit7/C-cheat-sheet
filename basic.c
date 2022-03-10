@@ -54,19 +54,25 @@ int NOME_MAIN {
     
     OPERATORI LOGICI
 
-    && and   && > || tipo * > +
+    && and  
     || or
     !  not
     ^  xor
     
+    GERARCHIA
+    
+    && vince sul' || come * vince sul +
+    
+    SINTASSI
+    
     (valopre <CONDIZIONE> valore) <OPERATORE> (valopre <CONDIZIONE> valore) <OERATORE> valore
 
     esempi con l'AND
-    (1 > 2) && (1 == 1) --> falso e vero --> falso
-    !(1 > 2) && (1 == 1) --> vero e vero --> vero
+    (1 > 2) && (1 == 1)  --> falso e vero --> falso
+    !(1 > 2) && (1 == 1) --> vero e vero  --> vero
     
     esempi con l'OR
-    (1 > 2) || (1 == 1) --> falso o vero --> vero
+    (1 > 2) || (1 == 1) --> falso o vero  --> vero
     (1 > 2) || (1 != 1) --> falso o falso --> falso
     
     A = 2
@@ -75,19 +81,25 @@ int NOME_MAIN {
     
     (C > A) && (C > B) --> vero e vero --> vero
     
-    tabelle di condizione:
+    TABELLE DI CONDIZIONE:
     
     OR: (||)
-    vero || vero   --> vero
-    vero || falso  --> vero
+    vero  || vero  --> vero
+    vero  || falso --> vero
     falso || vero  --> vero
     falso || falso --> falso 
     
     AND: (&&)
-    vero && vero   --> vero
-    vero && falso  --> falso
+    vero  && vero  --> vero
+    vero  && falso --> falso
     falso && vero  --> falso
     falso && falso --> falso 
+    
+    XOR: (^)
+    vero  ^ vero  --> falso
+    vero  ^ falso --> vero
+    falso ^ vero  --> vero
+    falso ^ falso --> falso 
     
     NOT: (!)
     !vero --> falso 
