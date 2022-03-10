@@ -8,11 +8,11 @@ roadmap + esempi per scrivere una condizione ...
 
 ### operatori
 
-    >
-    <
-    ==
-    !=
-    !(condizione) --> non 
+    >   --> maggiore
+    <   --> minore
+    ==  --> uguale
+    !=  --> diverso
+    !(condizione) --> non il risultato della condizione tra parentesi 
     
 ### operatori logici
 
@@ -23,11 +23,13 @@ roadmap + esempi per scrivere una condizione ...
     
 ### gerarchia degli operatori
     
-    && vince sul' || come * vince sul +
+    ! > && > ||
+    ovvero: ! vince sull' && che vince sul' || 
+    un po' come il * vince sul +
     
 ### sintassi di un'espressione
     
-    (valopre <CONDIZIONE> valore) <OPERATORE> (valopre <CONDIZIONE> valore) <OERATORE> valore
+    (valopre <CONDIZIONE> valore) <OPERATORE> !(valopre <CONDIZIONE> valore) <OERATORE> valore
     
 ### esempi con l'AND
 
